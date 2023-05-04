@@ -2,11 +2,20 @@
   "name": "breningham",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "preinstall": "npx only-allow pnpm"
+  },
   "private": true,
   "devDependencies": {
     "@nx/workspace": "16.0.3",
     "nx": "16.0.3",
-    "nx-cloud": "^16.0.5"
+    "nx-cloud": "^16.0.5",
+    "prettier": "^2.8.8"
+  },
+  "volta": {
+    "node": "18.16.0"
+  },
+  "dependencies": {
+    "@nx/next": "^16.0.3"
   }
 }
