@@ -4,10 +4,9 @@
   "license": "MIT",
   "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@nx/workspace": "16.0.3",
     "nx": "16.0.3",
-    "nx-cloud": "latest"
+    "nx-cloud": "^16.0.5"
   }
 }
